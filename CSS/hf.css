@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+    align-items: center;
+    font-family: Lexend Deca;
+    background-color: #111111;
+}
+
+.logo{
+    fill: rgb(197, 26, 38);
+    margin: 10px;
+    width: 50px;
+}
+
+header>nav>ul{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+header>nav>ul>li{
+    list-style: none;
+    margin: 10px;
+}
+
+header>nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+/* FOOTER */
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #1e1e1e;
+    font-family: Lexend Deca;
+}
+
+footer section{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: 20px;
+}
+
+footer p{
+    color: white;
+}
+
+footer .logo{
+    margin: 20px;
+}
+
+footer .icono{
+    width: 30px;
+    fill: #555555;
+    margin: 10px 20px;
+}
+
+footer .copy{
+    width: 20px;
+    fill: rgb(197, 26, 38);
+    padding-top: 5px;
+    margin: 5px;
+}
