@@ -282,7 +282,6 @@ main .principal a, .seccion3 .parte1 a, .seccion3 .parte3 a{
 
     main .principal p{
         font-size: 12px;
-        text-align: center;
     }
 
     main .principal a{
@@ -345,5 +344,6 @@ main .principal a, .seccion3 .parte1 a, .seccion3 .parte3 a{
 
     .principal p {
         margin-top: 0px;
+        text-align: center;
     }
 }

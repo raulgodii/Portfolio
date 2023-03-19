@@ -131,6 +131,12 @@ footer .copy{
     margin: 5px;
 }
 
+@media screen and (max-width: 720px){
+    footer{
+        flex-direction: column;
+    }
+}
+
 @media screen and (max-width: 650px){
     header nav{
         display: none;
@@ -144,9 +150,5 @@ footer .copy{
     header .label_menu img{
         width: 40px;
         filter: invert(1);
-    }
-
-    footer{
-        flex-direction: column;
     }
 }
