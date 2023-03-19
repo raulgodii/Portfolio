@@ -11,6 +11,7 @@ main .grey{
 /* SECCION 1*/
 main{
     font-family: Lexend Deca;
+    padding-top: 80px;
 }
 
 main .principal{
@@ -51,7 +52,7 @@ main .principal p{
     color: #555555;
 }
 
-main .principal a, .seccion3 .parte1 a{
+main .principal a, .seccion3 .parte1 a, .seccion3 .parte3 a{
     color: white;
     text-decoration: none;
     background-color: rgb(197, 26, 38);
@@ -172,6 +173,11 @@ main .principal a, .seccion3 .parte1 a{
 }
 
 /* SECCION 3 */
+.seccion3{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
 .seccion3 .parte1{
     display: flex;
     flex-flow: row nowrap;
@@ -231,4 +237,54 @@ main .principal a, .seccion3 .parte1 a{
 .seccion3 .parte2 a{
     color: rgb(197, 26, 38);
     text-decoration: none;
+}
+
+.seccion3 .parte3{
+    background-color:#1e1e1e;
+    width: 80%;
+    align-self: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    margin-bottom: 60px;
+}
+
+.seccion3 h2{
+    color: white;
+}
+
+.seccion3 p{
+    color: #555555;
+    margin-top: 20px;
+}
+
+.seccion3 div{
+    margin: 30px;
+}
+
+@media screen and (max-width: 750px){
+
+    .seccion3 .parte2 .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0px 20px;
+    }
+
+    main .principal img{
+        height: 250px;
+    }
+
+    main .principal h1{
+        font-size: 30px;
+    }
+
+    main .principal p{
+        font-size: 12px;
+    }
+
+    main .principal a{
+        padding: 10px;
+    }
 }

@@ -14,6 +14,12 @@ header{
     align-items: center;
     font-family: Lexend Deca;
     background-color: #111111;
+    position: fixed;
+    width: 100%;
+}
+
+header .label_menu, .check{
+    display: none;
 }
 
 .logo{
@@ -22,20 +28,69 @@ header{
     width: 50px;
 }
 
-header>nav>ul{
+header>nav ul{
     display: flex;
     flex-flow: row wrap;
-}
-
-header>nav>ul>li{
     list-style: none;
-    margin: 10px;
+    gap: 20px;
 }
 
-header>nav>ul>li>a{
+header nav a{
     text-decoration: none;
     color: white;
     font-size: 20px;
+    background-color: rgb(197, 26, 38);
+    padding: 10px 10px;
+    display: block;
+}
+
+header nav ul ul a{
+    background-color: #1e1e1e;
+    color: white;
+}
+
+header nav li{
+    border-collapse: collapse;
+}
+
+header nav ul ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+header nav ul li{
+    width: 140px;
+    text-align: center;
+}
+
+header nav ul li{
+    position: relative;
+}
+
+header nav ul ul{
+    position: absolute;
+}
+
+header nav ul ul ul{
+    top: 0;
+    left: 140px;
+}
+
+header nav ul ul{
+    display: none;
+}
+
+header nav ul li:hover>ul{
+    display: flex;
+}
+
+header nav ul li:hover a{
+    background-color: #1e1e1e;
+}
+
+header nav ul ul li:hover>a{
+    background-color: #555555;
 }
 
 /* FOOTER */
@@ -74,4 +129,20 @@ footer .copy{
     fill: rgb(197, 26, 38);
     padding-top: 5px;
     margin: 5px;
+}
+
+@media screen and (max-width: 650px){
+    header nav{
+        display: none;
+    }
+
+    header .label_menu{
+        display: block;
+        cursor: pointer;
+    }
+
+    header .label_menu img{
+        width: 40px;
+        filter: invert(1);
+    }
 }
