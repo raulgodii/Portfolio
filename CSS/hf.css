@@ -153,12 +153,14 @@ footer .copy{
     }
 
     header .check:checked + nav{
-        display: block;
+        display: flex;
         position: fixed;
         top: 80px;
         left: 0px;
         background-color:#111111;
-        padding: 30px 100px;
+        width: 100%;
+        justify-content: center;
+        padding: 30px 0px;
     }
 
     header nav>ul{
