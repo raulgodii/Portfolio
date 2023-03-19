@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@600&display=swap');
+
+main .black{
+    background-color: #111111;
+}
+
+main .grey{
+    background-color: #181818;
+}
+
+*{
+    font-family: Lexend Deca;
+}
+
+/* SECCION 1 */
+.seccion1{
+    padding-top: 120px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.years h2{
+    color: rgb(197, 26, 38);
+    text-align: center;
+    font-size: 120px;
+}
+
+.years p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.datos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.datos article{
+    background-color:#1e1e1e;
+    margin: 15px;
+}
+
+.datos h2{
+    color: rgb(197, 26, 38);
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 40px;
+}
+
+.datos p{
+    color: white;
+    text-align: center;
+    margin: 20px 40px;
+}
+
+/* SECCION 2 */
+.seccion2 div:first-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion2{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion2 div{
+    margin: 20px 0px;
+}
+
+.seccion2 img{
+    width: 40%;
+    margin: 20px 0px;
+    align-self: center;
+}
+
+.seccion2 table{
+    margin: 20px 0px;
+}
+
+.seccion2 h2{
+    font-size: 40px;
+    color: white;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.seccion2 .titulos{
+    background-color:#1e1e1e;
+    text-align: center;
+    border-spacing: 0;
+}
+
+.seccion2 .titulos thead{
+    font-size: 25px;
+    color: rgb(197, 26, 38);
+}
+
+.seccion2 .titulos tbody{
+    font-size: 20px;
+    color:white;
+}
+
+.seccion2 .titulos thead{
+    background-color: rgb(197, 26, 38);
+    color: white;
+}
+
+.seccion2 .titulos tbody tr:nth-child(odd){
+    background-color:#181818;
+}
+
+.seccion2 .titulos th, .seccion2 .titulos td{
+    padding: 10px;
+}
+
+/* SECCION 3 */
+.seccion3 h2, .seccion4 h2, .seccion5 h2{
+    color: white;
+    padding: 40px;
+    font-size: 40px;
+}
+
+.seccion3 svg{
+    width: 75px;
+    fill: rgb(197, 26, 38);
+}
+
+.seccion3 .habilidades{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+}
+
+.seccion3 .habilidades article{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.seccion3 .habilidades p{
+    color: white;
+    margin-top: 10px;
+}
+
+/* SECCIÓN 4 */
+.seccion4 img{
+    width: 60%;
+    border: 5px solid rgb(197, 26, 38);
+}
+
+.seccion4 .experiencia{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion4 .experiencia article{
+    width: 100%;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.seccion4 .experiencia h3{
+    color: white;
+    margin-top: 25px;
+}
+
+.seccion4 .experiencia h4{
+    color:#555555;
+    margin-top: 10px;
+}
+
+/* SECCION 5 */
+.seccion5 .proyectos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.seccion5 .proyectos img{
+    border: 2px solid rgb(197, 26, 38);
+    width: 100%;
+}
+
+.seccion5 .proyectos h3{
+    color: rgb(197, 26, 38);
+    margin-top: 10px;
+}
+
+.seccion5 .proyectos p{
+    color: #555555;
+    margin: 10px 0px;
+}
+
+.seccion5 .proyectos a{
+    color: white;
+    text-decoration: none;
+}
+
+.seccion5 .proyectos article{
+    margin: 20px;
+    border: 1px solid #555555;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.seccion5 .proyectos h5{
+    color: white;
+    margin: 5px 0px;
+}

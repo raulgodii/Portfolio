@@ -269,12 +269,14 @@ main .principal a, .seccion3 .parte1 a, .seccion3 .parte3 a{
 }
 
 @media screen and (max-width: 750px){
-
     .seccion3 .parte2 .grid{
         display: grid;
         grid-template-columns: 1fr;
         margin: 0px 20px;
     }
+}
+
+@media screen and (max-width: 650px){
 
     main .principal h1{
         font-size: 30px;
