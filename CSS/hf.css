@@ -158,10 +158,22 @@ footer .copy{
         top: 80px;
         left: 0px;
         background-color:#111111;
-        padding: 0px 80px;
+        padding: 30px 100px;
     }
 
     header nav>ul{
         flex-direction: column;
+    }
+
+    header nav ul ul, header nav ul ul{
+        position: static;
+    }
+
+    header nav ul li:hover a{
+        background-color:#1e1e1e;
+    }
+
+    header nav ul ul li:hover a{
+        background-color:#555555;
     }
 }
