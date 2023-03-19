@@ -151,4 +151,17 @@ footer .copy{
         width: 40px;
         filter: invert(1);
     }
+
+    header .check:checked + nav{
+        display: block;
+        position: fixed;
+        top: 80px;
+        left: 0px;
+        background-color:#111111;
+        padding: 0px 80px;
+    }
+
+    header nav>ul{
+        flex-direction: column;
+    }
 }
