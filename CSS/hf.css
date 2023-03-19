@@ -145,4 +145,8 @@ footer .copy{
         width: 40px;
         filter: invert(1);
     }
+
+    footer{
+        flex-direction: column;
+    }
 }
