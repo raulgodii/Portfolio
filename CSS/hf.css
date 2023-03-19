@@ -27,6 +27,9 @@ header .label_menu, .check{
     margin: 10px;
     width: 50px;
 }
+header nav{
+    margin: 30px 0px;
+}
 
 header>nav ul{
     display: flex;
