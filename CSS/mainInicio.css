@@ -27,7 +27,7 @@ line-height: 0;
 
 main .principal article:nth-child(2){
     display: flex;
-    justify-items: center;
+    justify-content: center;
     flex-flow: column wrap;
     margin: 50px;
     margin-bottom: 0px;
@@ -35,7 +35,7 @@ main .principal article:nth-child(2){
 }
 
 main .principal img{
-    height: 70%;
+    width: 90%;
     margin: 50px;
     margin-bottom: 0px;
 }
@@ -272,10 +272,6 @@ main .principal a, .seccion3 .parte1 a, .seccion3 .parte3 a{
         margin: 0px 20px;
     }
 
-    main .principal img{
-        height: 250px;
-    }
-
     main .principal h1{
         font-size: 30px;
     }
@@ -286,5 +282,52 @@ main .principal a, .seccion3 .parte1 a, .seccion3 .parte3 a{
 
     main .principal a{
         padding: 10px;
+    }
+}
+
+
+@media screen and (max-width: 650px){
+    main .principal article:nth-child(2), main .principal img{
+        margin: 0px 10px;
+    }
+
+    .datos{
+        grid-template-columns: 1fr;
+    }
+
+    .seccion3 .parte3{
+        flex-direction: column;
+    }   
+
+    .seccion3 .enlace_p3{
+        margin: 50px;
+    }
+
+    .seccion3 .parte1{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .seccion3 .parte1 section:first-child{
+        width: 100%;
+    }
+
+    .seccion3 .parte1 section{
+        margin: 20px;
+    }
+
+    .seccion3 .parte1 h2{
+        text-align: center;
+    }    
+}
+
+@media screen and (max-width: 450px){
+    main .principal img{
+        display: none;
+    }
+
+    main .principal article:nth-child(2){
+        align-items: center;
+        margin-bottom: 20px;
     }
 }
