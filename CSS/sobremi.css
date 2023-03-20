@@ -266,6 +266,8 @@ main .grey{
     padding: 10px;
 }
 
+
+/* MEDIA QUERIES */
 @media screen and (max-width: 650px){
     .seccion1 .datos{
         grid-template-columns: 1fr;
@@ -297,5 +299,11 @@ main .grey{
 
     .seccion6 p{
         margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .seccion6{
+        text-align: center;
     }
 }
