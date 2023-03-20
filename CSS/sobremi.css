@@ -193,7 +193,9 @@ main .grey{
 /* SECCION 5 */
 .seccion5 .proyectos{
     display: grid;
+    gap: 40px;
     grid-template-columns: 1fr 1fr;
+    padding: 5%;
 }
 
 .seccion5 .proyectos img{
@@ -217,7 +219,6 @@ main .grey{
 }
 
 .seccion5 .proyectos article{
-    margin: 20px;
     border: 1px solid #555555;
     padding: 15px;
     display: flex;
@@ -266,6 +267,10 @@ main .grey{
     padding: 10px;
 }
 
+.seccion6 .p1 div{
+    margin: 15px;
+}
+
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 650px){
@@ -279,6 +284,7 @@ main .grey{
 
     .seccion5 .proyectos{
         grid-template-columns: 1fr;
+        padding: 0;
     }
 
     .seccion5 .proyectos article{
