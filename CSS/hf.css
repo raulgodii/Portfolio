@@ -158,7 +158,7 @@ footer .copy{
     header .check:checked + nav{
         display: flex;
         position: fixed;
-        top: 80px;
+        top: 50px;
         left: 0px;
         background-color:#111111;
         width: 100%;
