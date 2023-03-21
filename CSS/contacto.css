@@ -202,3 +202,16 @@ main .grey{
     align-items: center;
     justify-content: center;
   }
+
+  @media screen and (max-width: 500px){
+
+    .seccion1 h2{
+      font-size: 30px;
+    }
+
+    .seccion1 .contacto{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
