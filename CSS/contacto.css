@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@600&display=swap');
+
+main .black{
+    background-color: #111111;
+}
+
+main .grey{
+    background-color: #181818;
+}
+
+*{
+    font-family: Lexend Deca;
+}
+
+/* SECCION 1 */
+.seccion1{
+    padding-top: 150px;
+    padding-bottom: 30px;
+}
+
+.seccion1 .contacto, .seccion1 h2, .seccion1 h4{
+  margin: 0px 10%;
+}
+
+.seccion1 h2{
+    color: white;
+    font-size: 40px;
+}
+
+.seccion1 .datos{
+    color: #555;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.seccion1 h4{
+    color: white;
+}
+
+.seccion1 .contacto{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-around;
+    margin: 30px 10%;
+}
+
+.seccion1 .redes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 10px;
+}
+
+.seccion1 .redes svg{
+    width: 60px;
+    fill: rgb(197, 26, 38);
+}
+
+/* SECCION 2 */
+.seccion2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.singup {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 1.5em;
+  }
+  
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 350px;
+    width: 60%;
+    min-width: 300px;
+    flex-direction: column;
+    gap: 35px;
+    border-radius: 15px;
+    background:#181818;
+    border-radius: 8px;
+  }
+  
+  .inputBox,
+  .inputBox1 {
+    position: relative;
+    width: 80%;
+  }
+  
+  .inputBox input,  .inputBox textarea,
+  .inputBox1 input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    color: #555;
+    font-size: 1em;
+    background: transparent;
+    border-left: 2px solid #555;
+    border-bottom: 2px solid #555;
+    transition: 0.1s;
+    border-bottom-left-radius: 8px;
+  }
+  
+  .inputBox span,
+  .inputBox1 span {
+    margin-top: 5px;
+    position: absolute;
+    left: 0;
+    transform: translateY(-4px);
+    margin-left: 10px;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 12px;
+    color: #555;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 3px;
+    border-radius: 8px;
+  }
+
+  .inputBox textarea{
+    width: 100%;
+  }
+  
+  .inputBox input:valid~span,
+  .inputBox input:focus~span,
+  .inputBox input:not(:placeholder-shown)~span,
+  .inputBox textarea:valid~span,
+  .inputBox textarea:focus~span
+  {
+    transform: translateX(113px) translateY(-15px);
+    font-size: 0.8em;
+    padding: 5px 10px;
+    background: white;
+    letter-spacing: 0.2em;
+    color: #111111;
+    border: 2px;
+  }
+  
+  .inputBox1 input:valid~span,
+  .inputBox1 input:focus~span {
+    transform: translateX(156px) translateY(-15px);
+    font-size: 0.8em;
+    padding: 5px 10px;
+    background: white;
+    letter-spacing: 0.2em;
+    color: #111111;
+    border: 2px;
+  }
+  
+  .inputBox input:valid,
+  .inputBox input:focus,
+  .inputBox input:not(:placeholder-shown),
+  .inputBox textarea:valid,
+  .inputBox textarea:focus,
+  .inputBox1 input:valid,
+  .inputBox1 input:focus {
+    border: 2px solid white;
+    border-radius: 8px;
+  }
+  
+
+  .enter {
+    height: 45px;
+    width: 100px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(197, 26, 38);
+    border: 2px solid #181818;
+    cursor: pointer;
+    transition: 0.5s;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-bottom: 3em;
+  }
+  
+  .enter:hover {
+    background-color: white;
+    color: rgb(197, 26, 38);
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
