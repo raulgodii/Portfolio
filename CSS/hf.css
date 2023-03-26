@@ -97,6 +97,11 @@ header nav ul ul li:hover>a{
     background-color: #555555;
 }
 
+#resaltar{
+    color: rgb(197, 26, 38);
+    background-color: white;
+}
+
 /* FOOTER */
 footer{
     display: flex;
