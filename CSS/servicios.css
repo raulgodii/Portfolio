@@ -26,7 +26,7 @@ main .seccion1::before{
 
 /* SECCION 1 */
 .seccion1{
-  padding: 200px 30px 70px 30px;
+  padding: 190px 30px 70px 30px;
   color: white;
   position: relative;
 }
@@ -293,5 +293,11 @@ main .seccion1::before{
 @media screen and (max-width: 450px){
   .seccion3 .p1{
       text-align: center;
+  }
+}
+
+@media screen and (max-width: 710px){
+  .seccion1{
+    padding-top: 150px;
   }
 }
