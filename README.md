@@ -1,4 +1,4 @@
-<h1 align="left">Web Professional Portfolio - Template</h1>
+<h1 align="left">Web Professional Portfolio - Template Responsive</h1>
 
 ###
 
@@ -6,7 +6,7 @@
 
 ###
 
-<p align="left">Here is a personalized template of a portfolio, based on a web designer. <br>It was made like a project class, in order to practice pure HTML and CSS.<br>It has several pages:</p>
+<p align="left">Here is a personalized template with responsive design of a portfolio, based on a web designer. <br>It was made like a project class, in order to practice pure HTML and CSS.<br>It has several pages:</p>
 
 ###
 
